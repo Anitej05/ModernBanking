@@ -1,0 +1,96 @@
+/* Global Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f7fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Main Form Wrapper */
+  form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Input Styles */
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #4f89f1;
+    outline: none;
+  }
+  
+  /* Label Styles */
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Error Message Styles */
+  p {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: -8px;
+  }
+  
+  /* Submit Button Styles */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4f89f1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #365ebd;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 480px) {
+    form {
+      padding: 20px;
+      width: 80%;
+    }
+  
+    input {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
+  
